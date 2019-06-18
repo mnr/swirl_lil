@@ -1,0 +1,19 @@
+- Class: meta
+  Course: High Variety Data
+  Lesson: Use R with Excel
+  Author: Mark Niemann-Ross
+  Type: Standard
+  Organization: LinkedIn Learning
+  Version: 2.4.4
+
+- Class: video
+  Output: LinkedIn Learning provides a video overview of R packages designed to work with Excel data. The video is 3:29 long. Would you like to watch it? 
+  VideoLink: https://linkedin-learning.pxf.io/r_excel_compared
+
+
+- Class: mult_question
+  Output: Which package is the easiest to import entire excel workbooks?
+  AnswerChoices: read.xlsx();Python;openxlsx;Rio
+  CorrectAnswer: Rio
+  AnswerTests: omnitest(correctVal="Rio")
+  Hint: It's a Swiss-Army Knife for Data I/O
